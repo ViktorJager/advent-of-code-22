@@ -1,13 +1,8 @@
+from util.filereader import read_file
 
 
-
-def read_file(path):
-    with open(path) as f:
-        return f.readlines()
-
-
-lines = read_file('./day1/input1.txt')
-# lines = read_file('./day1/input1-test.txt')
+lines = read_file('./input/day1/input.txt')
+# lines = read_file('./input/day1/testdata.txt')
 # print(lines)
 
 res = []
