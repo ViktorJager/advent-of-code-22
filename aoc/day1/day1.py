@@ -1,6 +1,5 @@
 from util.filereader import read_file
 
-
 lines = read_file('./input/day1/input.txt')
 # lines = read_file('./input/day1/testdata.txt')
 # print(lines)
